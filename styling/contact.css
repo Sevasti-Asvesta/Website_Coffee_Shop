@@ -1,0 +1,108 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: left;
+    display: block;
+    padding: 8px;
+    margin: 20px;
+    height: 30px;
+    margin-top: 0%;
+}
+body {
+    background-color: #000000b2;
+    font-style: helvetica;
+}
+h1 {
+    color: rgb(245, 244, 243);
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+    color: rgb(245, 244, 243);
+    text-align: center;
+    font-size: 150%;
+
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  /* Centered text */
+
+#fontawesome{
+    font-family: 'Road Rage', cursive;
+    font-size: 600%; /*  fontsize of carousel*/
+}
+#map{
+    width: 600px;
+    height: 450px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+#colmap{
+    margin-top: 80px;
+
+  }
+
+#hours{
+    font-family: 'Road Rage', cursive;
+    font-size: 400%;
+    margin-top: 100px;
+}
+
+.contacts{
+    font-family: 'Road Rage', cursive;
+    font-size: 300%;
+    text-decoration: underline;
+}
+
+#footer{
+    margin-top: 80px;
+    font-size: 70%;
+}
+.p1{
+    color: rgb(245, 244, 243);
+    text-align: left;
+    font-style: helvetica;
+}
+#font{
+    margin-left: 20px;
+}
+
+#colcontacts{
+    margin-left: 10px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: grey; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; 
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+  }
+
+  /*link decoration*/
+a{
+    color: white;
+    text-decoration: none;
+}
